@@ -48,7 +48,7 @@ let product1 = {
     title: 'Product 1',
     description: 'This is product 1',
     price: 100,
-    thumbnail: 'http://example.com/product1.jpg',
+    thumbnail: 'http://website.com/product1.jpg',
     code: 'P1',
     stock: 10
 };
@@ -58,7 +58,7 @@ let product2 = {
     title: 'Product 2',
     description: 'This is product 2',
     price: 200,
-    thumbnail: 'http://example.com/product2.jpg',
+    thumbnail: 'http://website.com/product2.jpg',
     code: 'P2',
     stock: 20
 };
@@ -69,7 +69,7 @@ let product3 = {
     title: 'Product 3',
     description: 'This is product 2',
     price: 200,
-    thumbnail: 'http://example.com/product2.jpg',
+    thumbnail: 'http://website.com/product3.jpg',
     code: 'P2',
     stock: 20
 };
@@ -79,4 +79,4 @@ productManager.addProduct(product2);
 productManager.addProduct(product3);
 
 let products = productManager.getProducts();
-let product = productManager.getProductById(2);
+let product = productManager.getProductById(2); 
